@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Service</title>
+    <style>
+        label{
+           display: block;
+           margin-bottom: 10px; 
+        }
+        section{
+            margin: 40px;
+        }
+        
+    </style>
+    <link rel="shortcut icon" href="food deliver.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please Fill Up The form </h2>
+            <form>
+                <label for="Your Name">Your name:
+                    <input type="text" placeholder="Your Nmae" id="Name">
+                </label>
+                <label for="Email">E-mail:
+                    <input type="email" placeholder="E-mail" id="email">
+
+                </label>
+                <label for="phone">Phone Number:
+                    <input type="Phone" placeholder="phone Number" id="phone">
+
+                </label>
+                <label for="Adress"> Address:
+                    <input type="address" placeholder="Address" id="address">
+                </label>
+                <fieldset >
+                    <legend>Pick up a Pack</legend>
+                    <label for="Italian pizza">
+                        <input type="checkbox" name="Italian Pizza" id="pizz">Italian Pizza
+                    </label>
+                    <label for="Mexican Fish">
+                        <input type="checkbox" name="Maxican Fish" id="fish">Mexican Fish
+
+                    </label>
+                    <label for="Hot Dogs">
+                        <input type="checkbox" name="Hot Dogs" id="hot dogs">Hot Dogs
+                    </label>
+                    <label for="Resturant Special">
+                        <input type="checkbox" name="Resturant Special" id="special">Resturant Special
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Delivery type</legend>
+                    <label for="Express Delivery">
+                        <input type="radio" name="Express" id="Express">Express Delivery
+                    </label>
+                    <label for="Normal Delivery">
+                        <input type="radio" name="Normal" id="Normal">Normal Delivery
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Notes</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
